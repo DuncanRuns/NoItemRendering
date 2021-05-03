@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "noitemrenderingmod",
+  "version": "${version}",
+  "name": "No Item Rendering Mod",
+  "description": "Bye bye renderItem()",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/noitemrenderingmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.noitemrendering.NIR"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "noitemrenderingmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3"
+  }
+}
